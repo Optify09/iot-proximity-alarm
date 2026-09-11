@@ -4,7 +4,6 @@
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
-#include <ESP32Servo.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
 char ssid[] = WIFI_SSID;
@@ -27,8 +26,6 @@ void setup(){
   pinMode(buttonPin, INPUT_PULLUP);
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
-
-  // Configuram Servomotorul
 
   digitalWrite(ledVerde, HIGH);
   digitalWrite(ledRosu, LOW);
