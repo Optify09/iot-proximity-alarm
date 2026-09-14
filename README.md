@@ -4,9 +4,12 @@
 notification on your phone** — an ESP32, an ultrasonic sensor and a button, talking to the
 Blynk cloud. No app to build.
 
-<!-- TODO: demo GIF here — button arms the system (LED green -> red), someone approaches,
-     buzzer sounds + phone notification. Drop it in and link it:
-     ![demo](docs/demo.gif) -->
+![Approaching the sensor flips the LED from green to red, and the phone gets a Blynk push notification](docs/demo.gif)
+
+*Pressing the button arms the system (green → red LED); getting close then buzzes it and
+sends a single push notification to the phone. 🟢 green = disarmed, 🔴 red = armed
+(and buzzing, once something is within range) — GIFs carry no audio, so the LED colour is
+the visual cue for the sound. [🔊 same clip, with sound](docs/demo.mp4).*
 
 ![The alarm board — hand-soldered on protoboard, no breadboard](docs/board.jpg)
 
