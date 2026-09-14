@@ -10,7 +10,8 @@ Blynk cloud. No app to build.
 
 ![The alarm board — hand-soldered on protoboard, no breadboard](docs/board.jpg)
 
-*Hand-soldered on protoboard — no breadboard.*
+*Hand-soldered on protoboard, no breadboard — push-button, red/green status LEDs, buzzer and
+an HC-SR04 ultrasonic sensor. [Solder side](docs/board-solder-side.jpg) for proof.*
 
 ---
 
