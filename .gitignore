@@ -4,6 +4,7 @@ secrets.h
 # Clipuri video (prea mari pentru GitHub — pune un GIF scurt in repo, clipul linkuit extern)
 *.mov
 *.mp4
+!docs/*.mp4
 
 # Diverse
 __pycache__/
